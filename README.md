@@ -9,7 +9,7 @@ Documentação da aplicação está contida neste arquivo.
 > ## Instalação
 #### Utilizado
 - Node v14.16.1
-- NPM v14.16.1
+- NPM 6.14.12
 
 Para instalar as bibliotecas
 ```
