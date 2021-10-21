@@ -5,8 +5,13 @@ Documentação da aplicação está contida neste arquivo.
 
 > ## Demo Heroku
 ```
-https://desafiogo.herokuapp.com/api/calculatecdb 
-
+curl -i -X POST https://desafiogo.herokuapp.com/api/calculatecdb  
+    -H 'Content-Type: application/json' 
+    -d '{
+        "investmentDate": "2016-04-03",
+        "currentDate": "2016-04-10", 
+        "cdbRate": 103.5
+        }'
 ```
 
 >## Back-end
