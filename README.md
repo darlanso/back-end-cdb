@@ -6,6 +6,22 @@ Documentação da aplicação está contida neste arquivo.
 >## Back-end
 <p>Você deve criar um serviço para calcular o valor de um CDB pós fixado indexado ao CDI em uma data específica e uma página web em que esses dados calculados serão expostos.</p>
 
+> ## Instalação
+#### Utilizado
+- Node v14.16.1
+- NPM v14.16.1
+
+Para instalar as bibliotecas
+```
+npm install
+```
+
+Para rodar em um ambiente é necessário alterar o script.js presente no diretório website/javascript, você deve alterar a url de requisição da api, para a url do seu servidor ou local.
+```
+npm start
+
+```
+
 > ## API Calculate CDB
 ### Funcionamento
 
@@ -24,21 +40,6 @@ http://localhost:1337/api/calculatecdb
 }
 ```
 
-> ## Instalação
-#### Utilizado
-- Node v14.16.1
-- NPM v14.16.1
-
-Para instalar as bibliotecas
-```
-npm install
-```
-
-Para rodar em um ambiente é necessário alterar o script.js presente no diretório website/javascript, você deve alterar a url de requisição da api, para a url do seu servidor ou local.
-```
-npm start
-
-```
 > ## Metodologias e Designs
 
 * TDD
