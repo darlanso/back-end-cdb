@@ -27,7 +27,7 @@ Para instalar as bibliotecas
 npm install
 ```
 
-Para rodar em um ambiente é necessário alterar o script.js presente no diretório website/javascript, você deve alterar a url de requisição da api, para a url do seu servidor ou local.
+Para rodar em um ambiente local.
 ```
 npm start
 
